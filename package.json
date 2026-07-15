@@ -1,0 +1,20 @@
+{
+  "name": "yt-transcripts-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that returns YouTube video transcripts",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/index.js",
+    "inspect": "npx @modelcontextprotocol/inspector node src/index.js"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.7"
+  },
+  "bin": {
+    "yt-transcripts-mcp": "src/index.js"
+  }
+}
